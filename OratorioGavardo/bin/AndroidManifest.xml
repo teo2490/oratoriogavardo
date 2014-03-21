@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="teo2490.oratoriogavardo"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="teo2490.oratoriogavardo.Home"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="teo2490.oratoriogavardo.News"
+            android:label="@string/title_activity_news" >
+        </activity>
+        <activity
+            android:name="teo2490.oratoriogavardo.Parola"
+            android:label="@string/title_activity_parola" >
+        </activity>
+        <activity
+            android:name="teo2490.parola.Vangelo"
+            android:label="@string/title_activity_vangelo" >
+        </activity>
+        <activity
+            android:name="teo2490.parola.Commento"
+            android:label="@string/title_activity_commento" >
+        </activity>
+        <activity
+            android:name="teo2490.parola.Santo"
+            android:label="@string/title_activity_santo" >
+        </activity>
+        <activity
+            android:name="teo2490.parola.Preghiera"
+            android:label="@string/title_activity_preghiera" >
+        </activity>
+        <activity
+            android:name="teo2490.preghiera.PadreNostro"
+            android:label="@string/title_activity_padre_nostro" >
+        </activity>
+        <activity
+            android:name="teo2490.preghiera.AveMaria"
+            android:label="@string/title_activity_ave_maria" >
+        </activity>
+        <activity
+            android:name="teo2490.preghiera.Gloria"
+            android:label="@string/title_activity_gloria" >
+        </activity>
+        <activity
+            android:name="teo2490.preghiera.TiAdoro"
+            android:label="@string/title_activity_ti_adoro" >
+        </activity>
+        <activity
+            android:name="teo2490.preghiera.Angelo"
+            android:label="@string/title_activity_angelo" >
+        </activity>
+        <activity
+            android:name="teo2490.preghiera.Maria"
+            android:label="@string/title_activity_maria" >
+        </activity>
+        <activity
+            android:name="teo2490.oratoriogavardo.Pensiero"
+            android:label="@string/title_activity_pensiero" >
+        </activity>
+    </application>
+
+</manifest>
